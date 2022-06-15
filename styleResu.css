@@ -1,0 +1,51 @@
+/* Background color */
+.bodSt {
+    background-image: linear-gradient(to right, #f1b1b1 , #82e6e8);
+  
+  }
+
+  /* Color change on hover */
+  h2:hover {
+    color: orangered;
+  }
+
+  h2:hover {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  /* text slide */
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  h1:hover {
+    animation-duration: 5s;
+    animation-name: slidein;
+    color: salmon;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+  
+  .imgZ:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
